@@ -13,16 +13,14 @@ npm install --save mx-spinner
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
+import { MxSpinner } from 'mx-spinner'
 
-import MyComponent from 'mx-spinner'
-import 'mx-spinner/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <MxSpinner />
 }
+
+export default App
 ```
 
 ## License

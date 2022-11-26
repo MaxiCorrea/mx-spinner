@@ -1,8 +1,8 @@
 import React from 'react'
-import { ExampleComponent } from 'mx-spinner'
+import { MxSpinner } from 'mx-spinner'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <MxSpinner />
 }
 
 export default App

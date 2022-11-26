@@ -7,7 +7,7 @@ const useMxSpinnerStyles = makeStyles((theme: Theme) =>
   createStyles({
     backdrop: {
       zIndex: theme.zIndex.drawer + 1,
-      color: '#000000',
+      color: '#925FF0',
       backgroundColor: 'rgba(255,255,255,0.5)'
     }
   })
