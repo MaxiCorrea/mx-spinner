@@ -1,13 +1,16 @@
 {
-  "name": "mx-spinner",
+  "name": "@maxicorrea/mx-spinner",
   "version": "1.0.0",
   "description": "MxSpinner Component",
   "author": "MaxiCorrea",
   "license": "MIT",
-  "repository": "MaxiCorrea/mx-spinner",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxiCorrea/mx-spinner.git"
+  },
   "engines": {
     "node": ">=10"
   },
@@ -24,9 +27,11 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "@material-ui/core": "^4.10.2"
   },
   "devDependencies": {
+    "@material-ui/core": "^4.10.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
